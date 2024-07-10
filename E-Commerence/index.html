@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce T-Shirts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>T-Shirt Shop</h1>
+        <div class="cart">
+            <span class="cart-number">0</span>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+        <div class="wishlist">
+            <span class="heart-number">0</span>
+            <i class="fas fa-heart"></i>
+        </div>
+    </header>
+    <main>
+        <div class="filters">
+            <input type="text" id="search" placeholder="Search T-Shirts">
+            <button id="sort-price">Sort by Price</button>
+        </div>
+        <div class="products" id="product-list">
+            <!-- Products will be inserted here by JavaScript -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
